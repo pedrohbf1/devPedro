@@ -21,6 +21,7 @@ const CadaProjeto = ({ projeto, index }) => {
           <a href={projeto.url}>
             <h2>{projeto.titulo}</h2>
           </a>
+          <DescEstilizada>Clique em ver mais...</DescEstilizada>
           <p>{projeto.descricao.length > 150 ? `${projeto.descricao.substring(0, 150)}...` : projeto.descricao}</p>
           <Linguagens>
             {projeto.linguagens &&
@@ -146,6 +147,19 @@ const ProjetoDetalhes = styled.div`
     }
   }
 `;
+
+const DescEstilizada = styled.span`
+  font-size: 1.25rem;
+  display: none;
+  color: #525252;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: .14rem;
+  @media (max-width: 1330px) {
+    display: flex;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+`
 
 const Linguagens = styled.div`
   display: flex;

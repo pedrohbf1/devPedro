@@ -176,9 +176,8 @@ const CloseButton = styled.button`
 `;
 
 const Title = styled.h2`
-    color: #4a2cc5;
+    color: black;
     text-transform: uppercase;
-    margin-bottom: 10px;
 `;
 
 const Subtitle = styled.p`
@@ -244,7 +243,7 @@ const SubmitButton = styled.button`
 
 
 const ContadorCaracteres = styled.div`
-    color: ${props => (props.maximoAtingido ? "red" : "#4a2cc5")};
+    color: ${props => (props.maximoAtingido ? "red" : "black")};
     font-size: 12px;
     margin-top: -15px;
     margin-bottom: 30px;

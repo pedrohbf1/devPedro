@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import CadaProjeto from "../../Componentes/CadaProjeto/index.jsx";
 import { FaArrowRight } from "react-icons/fa";
 import objetoProjetos from "../../ObjetosUsados/Projetos/index.jsx";
@@ -74,10 +74,26 @@ const SecaoProjetos = styled.div`
     }
 `;
 
+const slideAnimation = keyframes`
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+`;
+
 const SubTitulo = styled.section`
     display: flex;
     margin: 0;
     display: none;
+
+    svg {
+        animation: ${slideAnimation} 1s linear infinite; 
+    }
 
     @media (max-width: 1000px) {
         display: flex;

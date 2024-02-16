@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 import { IoReorderThree } from "react-icons/io5";
 import { useState } from "react";
 
-const Header = () => {
+const Header = ( ) => {
 
   const [headerMobile, setHeaderMobile] = useState(false)
 
@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <HeaderEstilizado>
+    <HeaderEstilizado >
       <h1><span>dev</span> Pedro Henrique</h1>
       <nav>
         <ul>
