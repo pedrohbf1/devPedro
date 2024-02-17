@@ -350,6 +350,14 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 50%;
     animation: ${T0} 1s ease;
     opacity: 1;
+    @media (max-width: 366px) {
+      width: 250px;
+      height: 250px;
+    }
+    @media (max-width: 258px) {
+      width: 150px;
+      height: 150px;
+    }
   }
 
   div {
@@ -358,6 +366,9 @@ h1, h2, h3, h4, h5, h6, p {
       font-size: 40px;
       animation: ${L0} 2s ease;
       text-transform: uppercase;
+      @media (max-width: 350px) {
+        font-size: 18px;
+      }
       &::after {
         display: inline-block;
         content: "";
@@ -924,6 +935,10 @@ button {
             font-size: 1.5rem;
         }
     }
+    @media (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+    }
 `,h1=P.section`
     width: 100%;
     display: flex;
@@ -942,6 +957,7 @@ button {
     padding: 20px;
     margin-top: 50px;
     box-sizing: border-box;
+
     h3 {
         color: #ccc;
         font-size: 1.25rem;
@@ -978,6 +994,10 @@ button {
         gap: 40px;
         margin: 20px 0;
         box-sizing: border-box;
+        @media (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+    }
         div {
             display: flex;
             flex-direction: column;
@@ -1203,6 +1223,9 @@ button {
             a {
                 color: white;
                 text-decoration: none;
+                @media (max-width: 350px) {
+                    font-size: 12px;
+                }
             }
             svg {
                 margin-right: 10px;
@@ -1221,6 +1244,15 @@ button {
                 cursor: pointer;
                 transition: 1s all;
                 box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+                @media (max-width: 260px) {
+                    padding: 10px;
+                }
+                @media (max-width: 224px) {
+                    padding: 2px;
+                }
+                @media (max-width: 205px) {
+                    padding: 0px;
+                }
                 &:hover {
                     transform: scale(1.1);
                 }
