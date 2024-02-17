@@ -52,7 +52,6 @@ const Formação = () => {
                     <section>
                         <div>
                             <p><strong>Inglês</strong> / Básico</p>
-                            <p><strong>Espanhol</strong> / Básico</p>
                             <p><strong>Português</strong> / Nativo</p>
                         </div>
                     </section>

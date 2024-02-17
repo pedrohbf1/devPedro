@@ -162,6 +162,9 @@ const ModalContent = styled.div`
     gap: 10px;
     border: 2px solid #4a2cc5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    @media (max-width: 425px) {
+        width: 300px;
+    }
 `;
 
 const CloseButton = styled.button`
@@ -208,6 +211,18 @@ const InputGroup = styled.div`
     
     input {
         width: 84%;
+        @media (max-width: 425px) {
+        width: 79%;
+        }
+        @media (max-width: 332px) {
+            width: 78%;
+        }
+    }
+    @media (max-width: 319px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `;
 
