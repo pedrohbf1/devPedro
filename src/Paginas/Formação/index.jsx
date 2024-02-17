@@ -107,6 +107,10 @@ const Centralizador = styled.header`
             font-size: 1.5rem;
         }
     }
+    @media (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+    }
 `
 
 const SecaoCurso = styled.section`
@@ -129,6 +133,7 @@ const DivSkill = styled.div`
     padding: 20px;
     margin-top: 50px;
     box-sizing: border-box;
+
     h3 {
         color: #ccc;
         font-size: 1.25rem;
@@ -165,6 +170,10 @@ const DivSkill = styled.div`
         gap: 40px;
         margin: 20px 0;
         box-sizing: border-box;
+        @media (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+    }
         div {
             display: flex;
             flex-direction: column;

@@ -168,6 +168,9 @@ const NavEstilizada = styled.nav`
             a {
                 color: white;
                 text-decoration: none;
+                @media (max-width: 350px) {
+                    font-size: 12px;
+                }
             }
             svg {
                 margin-right: 10px;
@@ -186,6 +189,15 @@ const NavEstilizada = styled.nav`
                 cursor: pointer;
                 transition: 1s all;
                 box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+                @media (max-width: 260px) {
+                    padding: 10px;
+                }
+                @media (max-width: 224px) {
+                    padding: 2px;
+                }
+                @media (max-width: 205px) {
+                    padding: 0px;
+                }
                 &:hover {
                     transform: scale(1.1);
                 }

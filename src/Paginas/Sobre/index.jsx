@@ -91,6 +91,14 @@ const MainEstilizado = styled.main`
     border-radius: 50%;
     animation: ${slideInFromLeft} 1s ease;
     opacity: 1;
+    @media (max-width: 366px) {
+      width: 250px;
+      height: 250px;
+    }
+    @media (max-width: 258px) {
+      width: 150px;
+      height: 150px;
+    }
   }
 
   div {
@@ -99,6 +107,9 @@ const MainEstilizado = styled.main`
       font-size: 40px;
       animation: ${slideInFromtop1} 2s ease;
       text-transform: uppercase;
+      @media (max-width: 350px) {
+        font-size: 18px;
+      }
       &::after {
         display: inline-block;
         content: "";
