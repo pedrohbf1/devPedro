@@ -27,11 +27,29 @@ const objetoProjetos = [
     },
 
     {
+        titulo: "Space app",
+        descricao: "Este website foi meticulosamente concebido para apresentar imagens deslumbrantes de estrelas, constelações e planetas que adornam o vasto espaço cósmico. Com uma interface intuitiva, proporciona aos usuários a oportunidade de explorar a beleza celestial de forma envolvente e educativa. Destaca-se pela inclusão de um filtro personalizado, permitindo uma experiência mais específica e personalizada ao visualizar o universo. É com satisfação que revelamos que este projeto foi concebido como parte integrante do curso oferecido pela renomada instituição Alura. ",
+        url: "https://space-app-smoky.vercel.app/",
+        repositorio: "https://github.com/pedrohbf1/spaceApp/tree/main/src/componentes",
+        imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/imagemCapa%20spaceApp.png?alt=media&token=9b337e85-71b1-488e-943f-00233ba0eddc",
+        linguagens: ["JavaScript", "React.js",  "HTML5", "CSS3", "Styled component" ]
+    },
+
+    {
         titulo: "Número secreto",
         descricao: "Este jogo é um projeto pessoal onde você utiliza o microfone para adivinhar um número de 1 a 1000. O objetivo é proporcionar diversão.",
         url: "https://jogo-numero-secreto-chi-flame.vercel.app/",
         repositorio: "https://github.com/pedrohbf1/Jogo-numero-secreto",
         imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/JogoNumeroSecretoCapa.png?alt=media&token=bdb34f2c-e41f-4921-9c58-93e89ac72be8",
+        linguagens: ["JavaScript", "HTML5", "CSS3" ]
+    },
+
+    {
+        titulo: "Monibank",
+        descricao: "Este website foi desenvolvido com o propósito de aprimorar e aprofundar as habilidades em JavaScript. Inclui um formulário com múltiplas validações para registro, a capacidade de acessar a câmera do usuário para facilitar o processo de registro, e uma tela de login para usuários registrados. Explore e aperfeiçoe suas habilidades enquanto interage com as diversas funcionalidades oferecidas neste projeto.",
+        url: "https://monibank-sable.vercel.app/pages/abrir-conta-form.html",
+        repositorio: "https://github.com/pedrohbf1/Monibank",
+        imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/capa%20monibank.png?alt=media&token=be2755c3-bb88-46e9-86ae-2748be8224e5",
         linguagens: ["JavaScript", "HTML5", "CSS3" ]
     }
 ]
