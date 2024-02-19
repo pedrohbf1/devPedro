@@ -2,8 +2,11 @@ import styled, { keyframes } from "styled-components";
 import CadaProjeto from "../../Componentes/CadaProjeto/index.jsx";
 import { FaArrowRight } from "react-icons/fa";
 import objetoProjetos from "../../ObjetosUsados/Projetos/index.jsx";
+import { useRef } from "react";
+import { useState } from "react";
 
 const Projetos = () => {
+
     return (
         <MainEstilizado id="projetos">
             <TituloEstilizado>Projetos</TituloEstilizado>

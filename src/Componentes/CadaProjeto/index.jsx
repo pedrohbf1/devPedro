@@ -259,6 +259,48 @@ const FotoCapa = styled.picture`
       object-fit: cover;
     }
   }
+    
+   @media (max-width: 625px) {
+    img {
+      width: 450px;
+    }
+   } 
+
+   @media (max-width: 535px) {
+    img {
+      width: 350px;
+    }
+   } 
+
+   @media (max-width: 440px) {
+    img {
+      width: 300px;
+    }
+   } 
+
+   @media (max-width: 390px) {
+    img {
+      width: 250px;
+    }
+   } 
+
+   @media (max-width: 340px) {
+    img {
+      width: 200px;
+    }
+   }
+
+   @media (max-width: 300px) {
+    img {
+      width: 160px;
+    }
+   }
+
+   @media (max-width: 266px) {
+    img {
+      width: 120px;
+    }
+   }
 `;
 
 const StyledLi = styled.li`
