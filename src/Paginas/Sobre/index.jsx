@@ -7,18 +7,19 @@ const SobreMim = () => {
       <img src="https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/FotoPerfil.jpeg?alt=media&token=256886ed-8ddf-4536-9df1-55d8e3772413" alt="" />
       <div>
         <h2>
-          Desenvolvedor <br />Front end
+          Desenvolvedor <br />Full stack
         </h2>
         <p>
-          Sou um Desenvolvedor Front-End apaixonado por transformar conceitos em
+          Sou um Desenvolvedor Full stack apaixonado por transformar conceitos em
           realidade, unindo habilidades técnicas e criatividade. Estou
           constantemente em busca de novas oportunidades para aprimorar minhas
           habilidades e enfrentar desafios em projetos inovadores. Meu objetivo
           é a constante aprendizagem e crescimento profissional na área. Possuo
           expertise nas seguintes tecnologias: <strong>JavaScript</strong>,{" "}
-          <strong>React.js</strong>. Além disso, tenho experiência em outras
-          tecnologias como <strong>Firebase</strong>, <strong>Node.js</strong>,{" "}
-          <strong>MySQL</strong>.
+          <strong>React.js</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, {""}
+          <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Git</strong>, {""} 
+          <strong>Github</strong>, <strong>TailwindCSS</strong>. Além disso, tenho experiência em outras
+          tecnologias como: <strong>Firebase</strong>.
         </p>
       </div>
       <section>

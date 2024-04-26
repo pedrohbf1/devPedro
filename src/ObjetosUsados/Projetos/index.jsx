@@ -1,5 +1,14 @@
 const objetoProjetos = [
     {
+        titulo: "Pedro Shop",
+        descricao: "Esse foi meu primeiro projeto full-stack, no qual desenvolvi sozinho tanto a parte do usuário quanto a parte do servidor. Este projeto foi concebido com o objetivo de aprimorar e aprofundar as competências em Node.js. Ele engloba um sistema completo com formulário de autenticação, funcionalidades de registro, cadastro, remoção e edição de produtos, além de uma seção destacada para exibição dos produtos mais relevantes.",
+        url: "https://pedro-shop-frontend.vercel.app/",
+        repositorio: "https://github.com/pedrohbf1/pedroShop-frontend",
+        imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/pedroShop.png?alt=media&token=beadd282-27fd-4353-8993-0fa5dd46f15f",
+        linguagens: ["JavaScript", "Styled-component", "React.js", "React-icons", "axios", "Firebase", "React-router-dom", "React-loader-spinner", "Node.js", "Express", "MySQL"]
+    },
+
+    {
         titulo: "Sistema de entregas",
         descricao: "Este projeto visa centralizar o gerenciamento de todas as entregas de uma lanchonete, proporcionando uma transição eficiente do processo manual para uma abordagem digitalizada.",
         url: "https://sistema-de-entregas.vercel.app/",
@@ -27,6 +36,15 @@ const objetoProjetos = [
     },
 
     {
+        titulo: "Dra Priscilla Santos",
+        descricao: "Este projeto consiste em uma landing page desenvolvida para uma psicóloga local. O objetivo era criar um site simples que fornecesse informações sobre psicologia em geral e sobre a profissional em questão. A página destaca os serviços oferecidos pela psicóloga e fornece uma breve descrição de sua abordagem e experiência.",
+        url: "https://dra-priscila.vercel.app/",
+        repositorio: "https://github.com/pedrohbf1/draPriscila",
+        imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/draPriscillaFOTO.png?alt=media&token=13128e35-4164-4a30-9e7c-16c71d9e1ccd",
+        linguagens: ["React.js", "React-icons", "Styled component", "HTML5", "CSS3" ]
+    },
+
+    {
         titulo: "Space app",
         descricao: "Este website foi meticulosamente concebido para apresentar imagens deslumbrantes de estrelas, constelações e planetas que adornam o vasto espaço cósmico. Com uma interface intuitiva, proporciona aos usuários a oportunidade de explorar a beleza celestial de forma envolvente e educativa. Destaca-se pela inclusão de um filtro personalizado, permitindo uma experiência mais específica e personalizada ao visualizar o universo. É com satisfação que revelamos que este projeto foi concebido como parte integrante do curso oferecido pela renomada instituição Alura. ",
         url: "https://space-app-smoky.vercel.app/",
@@ -36,22 +54,13 @@ const objetoProjetos = [
     },
 
     {
-        titulo: "Número secreto",
-        descricao: "Este jogo é um projeto pessoal onde você utiliza o microfone para adivinhar um número de 1 a 1000. O objetivo é proporcionar diversão.",
-        url: "https://jogo-numero-secreto-chi-flame.vercel.app/",
-        repositorio: "https://github.com/pedrohbf1/Jogo-numero-secreto",
-        imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/JogoNumeroSecretoCapa.png?alt=media&token=bdb34f2c-e41f-4921-9c58-93e89ac72be8",
-        linguagens: ["JavaScript", "HTML5", "CSS3" ]
-    },
-
-    {
         titulo: "Monibank",
         descricao: "Este website foi desenvolvido com o propósito de aprimorar e aprofundar as habilidades em JavaScript. Inclui um formulário com múltiplas validações para registro, a capacidade de acessar a câmera do usuário para facilitar o processo de registro, e uma tela de login para usuários registrados. Explore e aperfeiçoe suas habilidades enquanto interage com as diversas funcionalidades oferecidas neste projeto.",
         url: "https://monibank-sable.vercel.app/pages/abrir-conta-form.html",
         repositorio: "https://github.com/pedrohbf1/Monibank",
         imagemCapa: "https://firebasestorage.googleapis.com/v0/b/devpedro-b54e3.appspot.com/o/capa%20monibank.png?alt=media&token=be2755c3-bb88-46e9-86ae-2748be8224e5",
         linguagens: ["JavaScript", "HTML5", "CSS3" ]
-    }
+    },
 ]
 
 export default objetoProjetos
